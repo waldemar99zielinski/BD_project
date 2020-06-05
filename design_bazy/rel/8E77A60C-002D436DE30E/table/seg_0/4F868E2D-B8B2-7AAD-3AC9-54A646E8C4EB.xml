@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F868E2D-B8B2-7AAD-3AC9-54A646E8C4EB" name="Zdarzenia">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>DD9C6A94-7A73-AAE2-465B-B8891EAF37D9</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_zdarzenia" id="F9B26890-4729-25E9-3FFD-13F559D6A629">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>9301957F-5B26-42DF-768F-428D219B0CAD</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="1932A603-8BF0-91E2-F95A-3914E6BB99EE">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>8CA7F68A-D430-41A2-D0FA-F1C54C24D8EF</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="C05FAFA3-5D48-8CFF-A68C-88592498B1D0">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>8561099E-BBE2-4CA2-6CB5-026CAF7AFBF5</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_komendy" id="ECE2CA70-20BE-E583-360E-0808156E603B">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>A0E3E314-F309-5D6D-1528-FDE93AE07200</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="638BE216-81F1-0666-479C-B8A8A76A2369" referredColumn="29DC791C-A283-85B5-9DBE-E5DE70CB38FB"/>
+</associations>
+</Column>
+<Column name="ID_Rodzaje_zdarzenia" id="96199BD7-77F4-32B7-6255-78B9C66CFCA5">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>053A3AB4-20A1-EF66-F6D0-9FDABE2A8FB0</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D741B0F0-F868-6C7A-68B4-BCBDC6646965" referredColumn="954F5DF8-4822-631C-F3F4-FCD005541C88"/>
+</associations>
+</Column>
+<Column name="ID_kary" id="69C1E899-69B5-3A73-CF5F-E0195CB2B349">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 17:12:26 UTC</createdTime>
+<generatorID>32A282B2-2519-03A3-406B-29FB6A3BBD85</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C054804-478A-E141-8D90-F399576FBA7E" referredColumn="6245BE8F-AAC3-CE39-9C59-647775508504"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97177B3A-24E5-B422-BE70-5597B2C943C3" name="Zdarzenia_PK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>3F3CB496-DE58-0253-FB17-774F93F86D9E</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9B26890-4729-25E9-3FFD-13F559D6A629"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4D0BC3A-E72F-F80A-0B5B-A1267DC990E8" name="Zdarzenia__IDX">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>24B9CA8F-1372-2E51-4222-6A1FEC810D1C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="96199BD7-77F4-32B7-6255-78B9C66CFCA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EF36E3D-BD10-9F31-CB48-E08417E36095" name="Zdarzenia__IDXv2">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 17:12:26 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C97E963E-A64A-3C33-8DB4-2BF27AB48016</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="69C1E899-69B5-3A73-CF5F-E0195CB2B349"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF78CF30-7E88-EF0D-8E13-1981C0319F1D" name="Zdarzenia_Komendy_policji_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>FE1516DF-A499-64B3-314D-8FFE94307441</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECE2CA70-20BE-E583-360E-0808156E603B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC060947-0F36-8A0D-48B1-93B589BF2C30" name="Zdarzenia_Rodzaje_zdarzenia_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 17:04:12 UTC</createdTime>
+<generatorID>24B9CA8F-1372-2E51-4222-6A1FEC810D1C</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96199BD7-77F4-32B7-6255-78B9C66CFCA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE68ECDE-3BE0-B5AE-D748-625D3025EFD1" name="Zdarzenia_Kary_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 17:12:26 UTC</createdTime>
+<generatorID>C97E963E-A64A-3C33-8DB4-2BF27AB48016</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69C1E899-69B5-3A73-CF5F-E0195CB2B349"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

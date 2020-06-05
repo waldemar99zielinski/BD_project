@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C39B2D65-A9C0-0ED5-A78B-ED4043E99B89" name="Policjanci">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>070C5487-10E8-1A3D-C110-2B65A7804081</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_policjanta" id="84CFD2B0-86E8-048A-733D-C406C47188F6">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>D8AC2449-4BE9-0CE7-A717-C9A86B445CDA</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="FF7CC56D-9BC9-0521-65E1-0E172CB397B9">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>3FD87984-49F7-9A9E-1DD3-7E16976E5F02</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="163F3F79-C1A5-5E2C-E62C-945047F15C44">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>D501F4CF-A087-9F33-84C7-B9A8847448A1</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_stopnia" id="B59AF33B-03C9-CC7D-D6AC-CD7098654612">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>A054BF08-4044-CC43-31A4-90FACEF6E16C</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58DE93C7-C659-9751-DD85-CA43BE03EA45" referredColumn="D050D11E-C778-2451-48AC-B98CBF7BC72B"/>
+</associations>
+</Column>
+<Column name="Permia" id="48CFD155-7E22-EA67-40F6-30601BD1A9B8">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>BFBCB8C3-4557-366B-2833-0F29446F182A</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_przelozonego" id="B2244181-B316-3633-7952-B6D7A72568BE">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>2DE74B8B-B4B6-54E4-E612-3DC24032E157</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABFCE04B-9BA2-F269-34C1-5E5720815B0D" referredColumn="84CFD2B0-86E8-048A-733D-C406C47188F6"/>
+</associations>
+</Column>
+<Column name="ID_komendy" id="1DC1EA00-853F-FFA4-8735-0756B1A90AD4">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>EFEF5E74-DA3B-4ED1-7C3D-F7DD812A99A1</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB567130-968C-C5CD-E79D-7207AD383A2F" referredColumn="29DC791C-A283-85B5-9DBE-E5DE70CB38FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87A34CD4-1E89-9801-8FF3-BE37350B1CBA" name="Policjanci_PK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>86305C55-4D24-A190-1872-A3C8E7B7B35F</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84CFD2B0-86E8-048A-733D-C406C47188F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E887A481-B2EA-D5B9-0837-8E374B8C1A99" name="Policjanci_Stopnie_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>432CBD76-2401-7274-F48D-434C86213D73</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B59AF33B-03C9-CC7D-D6AC-CD7098654612"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F153905D-394A-55E9-0E27-886DA0A9FF88" name="Policjanci_Policjanci_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>F7203A44-22A3-A12D-5B2A-3D8D9C7716DD</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2244181-B316-3633-7952-B6D7A72568BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="460E09C5-2559-F5DB-A96F-DF51422A78A3" name="Policjanci_Komendy_policji_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>22493AE0-F138-99F2-853D-E99A2EB8D9FA</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DC1EA00-853F-FFA4-8735-0756B1A90AD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

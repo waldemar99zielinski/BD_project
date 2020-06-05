@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12778BC7-939A-622D-3898-DEF8EBB57559" containerWithKeyObject="F22EF0C5-C0F1-9940-2BA1-13227930F9C1" localFKIndex="BD91297B-BBC3-DE09-7DBA-CE42F51A677D" name="Komendy_policji_Policjanci_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>B348D26A-9146-006D-E6E7-A817954B29F1</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<referredTableLongName>Policjanci</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C39B2D65-A9C0-0ED5-A78B-ED4043E99B89</referredTableID>
+<keyObject>87A34CD4-1E89-9801-8FF3-BE37350B1CBA</keyObject>
+<referredKeyID>87A34CD4-1E89-9801-8FF3-BE37350B1CBA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_policjanta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

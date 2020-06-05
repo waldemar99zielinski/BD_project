@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="070C5487-10E8-1A3D-C110-2B65A7804081" name="Policjanci">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 13:47:35 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_policjanta" id="D8AC2449-4BE9-0CE7-A717-C9A86B445CDA">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 13:47:44 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="3FD87984-49F7-9A9E-1DD3-7E16976E5F02">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 13:48:12 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="D501F4CF-A087-9F33-84C7-B9A8847448A1">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 13:48:26 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_stopnia" id="A054BF08-4044-CC43-31A4-90FACEF6E16C">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:24:50 UTC</createdTime>
+<generatorID>432CBD76-2401-7274-F48D-434C86213D73</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<referedAttribute>30339750-DB56-CD3A-6F6E-AEB215B0C075</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Permia" id="BFBCB8C3-4557-366B-2833-0F29446F182A">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:48:39 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_policjanta1" id="2DE74B8B-B4B6-54E4-E612-3DC24032E157">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 15:21:25 UTC</createdTime>
+<generatorID>F7203A44-22A3-A12D-5B2A-3D8D9C7716DD</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D8AC2449-4BE9-0CE7-A717-C9A86B445CDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_komendy" id="EFEF5E74-DA3B-4ED1-7C3D-F7DD812A99A1">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:32:36 UTC</createdTime>
+<generatorID>22493AE0-F138-99F2-853D-E99A2EB8D9FA</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<referedAttribute>01D21F45-C852-20D1-F5DF-E1030D99E4C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86305C55-4D24-A190-1872-A3C8E7B7B35F" name="Policjanci PK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 13:48:07 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8AC2449-4BE9-0CE7-A717-C9A86B445CDA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

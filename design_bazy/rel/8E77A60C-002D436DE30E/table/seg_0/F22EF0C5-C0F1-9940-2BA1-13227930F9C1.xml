@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F22EF0C5-C0F1-9940-2BA1-13227930F9C1" name="Komendy_policji">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>AA01BC33-5A94-A692-4FCB-0A44F877EDA6</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_komendy" id="29DC791C-A283-85B5-9DBE-E5DE70CB38FB">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>01D21F45-C852-20D1-F5DF-E1030D99E4C6</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="D4F64158-5C4E-8EC5-8E92-3A31D4EAD941">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>E08728A1-BD63-70ED-37A4-D38840B3C133</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_adresu" id="C0D93E95-466D-B849-2D63-4F6848D8EA5C">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>8AC4F161-093F-2B18-E1FA-8DABADEDA511</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2675DC7-6B38-8E7E-314E-4EFBC9762C05" referredColumn="D37009D8-DDD9-FF01-5B73-FE4E138D6AC4"/>
+</associations>
+</Column>
+<Column name="ID_komendanta" id="BA072683-7BA0-E71D-15EC-42F0E9D04119">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>D5CB4BEA-6270-942C-C982-0D4F3CE3F901</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12778BC7-939A-622D-3898-DEF8EBB57559" referredColumn="84CFD2B0-86E8-048A-733D-C406C47188F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB86D905-E040-7383-0258-49E6A60E8F48" name="Komendy_policji_PK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>BD40074E-0C4F-2245-9948-36BA1890F0B4</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29DC791C-A283-85B5-9DBE-E5DE70CB38FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77F5C3A3-29F5-8273-A82B-E7FFF1DB2115" name="Komendy_policji__IDX">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B348D26A-9146-006D-E6E7-A817954B29F1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BA072683-7BA0-E71D-15EC-42F0E9D04119"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A73903E0-955E-ECF5-957B-DF14D25B1A8A" name="Komendy_policji_Adresy_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>DC4621E7-30C7-B56C-8589-50D5C115AEEF</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D93E95-466D-B849-2D63-4F6848D8EA5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD91297B-BBC3-DE09-7DBA-CE42F51A677D" name="Komendy_policji_Policjanci_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>B348D26A-9146-006D-E6E7-A817954B29F1</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA072683-7BA0-E71D-15EC-42F0E9D04119"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

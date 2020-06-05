@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65BCA66E-04B1-6B62-83A4-EE11DEA1B078" name="Rodzaje_zdarzenia">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>C854AA98-9082-BD05-7BB1-3045F9BD0096</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<ordsAlias>zdarzenia_rodzaj</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Rodzaje_zdarzenia" id="954F5DF8-4822-631C-F3F4-FCD005541C88">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>E9EB8674-F278-7437-2E60-3C1D0F7D22F2</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="C9156D6B-4BD3-28BF-F9FA-FA3C88CFAC5A">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>617C9D87-7A8D-04D5-697F-8475D94F6AF9</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C06D5099-E70B-F3BE-EC28-07A25C87088F" name="Rodzaje_zdarzenia_PK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 16:49:26 UTC</createdTime>
+<generatorID>3E96A0DC-023A-7924-3087-609F0F29DA8C</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="954F5DF8-4822-631C-F3F4-FCD005541C88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

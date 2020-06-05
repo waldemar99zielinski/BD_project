@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DC6DEA6-8655-6EA1-8999-5244A24E85AE" name="Zdarzenia_obywatele">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<ordsAlias>relation_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_obywatela" id="831EFC78-7332-94E0-2446-EC7DAAB11FA9">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D18DB6C-B11C-541A-C28F-1479BE6A8B6B" referredColumn="D0245D49-A008-94DC-4AB1-25EAF38B5507"/>
+</associations>
+</Column>
+<Column name="ID_zdarzenia" id="824A8AB3-CC0C-46E8-03F2-84C5E7794106">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EADA710-2055-711A-EE0A-FC0836FAC13C" referredColumn="F9B26890-4729-25E9-3FFD-13F559D6A629"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4886F462-0AB1-0BBA-8598-733C24785894" name="Relation_8_PK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="824A8AB3-CC0C-46E8-03F2-84C5E7794106"/>
+<colUsage columnID="831EFC78-7332-94E0-2446-EC7DAAB11FA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DEF8B09-4A1A-F263-6E70-298D9072D70B" name="Relation_8_Interwencje_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>452C28EC-3E05-652A-D863-7E0138E39175</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="824A8AB3-CC0C-46E8-03F2-84C5E7794106"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FCE07B9-7BA8-32F8-1CC9-6AE966AD92E7" name="Relation_8_Obywatele_FK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:33:46 UTC</createdTime>
+<generatorID>452C28EC-3E05-652A-D863-7E0138E39175</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="831EFC78-7332-94E0-2446-EC7DAAB11FA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

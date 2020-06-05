@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD9C6A94-7A73-AAE2-465B-B8891EAF37D9" name="Zdarzenia">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 13:35:23 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_zdarzenia" id="9301957F-5B26-42DF-768F-428D219B0CAD">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 13:35:32 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="8CA7F68A-D430-41A2-D0FA-F1C54C24D8EF">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 13:35:48 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="8561099E-BBE2-4CA2-6CB5-026CAF7AFBF5">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 13:45:18 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_komendy" id="A0E3E314-F309-5D6D-1528-FDE93AE07200">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 14:29:10 UTC</createdTime>
+<generatorID>FE1516DF-A499-64B3-314D-8FFE94307441</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<referedAttribute>01D21F45-C852-20D1-F5DF-E1030D99E4C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kary" id="32A282B2-2519-03A3-406B-29FB6A3BBD85">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-31 17:12:22 UTC</createdTime>
+<generatorID>C97E963E-A64A-3C33-8DB4-2BF27AB48016</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<referedAttribute>0FE8329E-99D7-7BFD-BAD5-3D1DC547CB5F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Rodzaje_zdarzenia" id="12A9755B-266E-792D-E99A-B9FF0CAA8DA6">
+<createdBy>walde</createdBy>
+<createdTime>2020-06-01 16:11:11 UTC</createdTime>
+<generatorID>24B9CA8F-1372-2E51-4222-6A1FEC810D1C</generatorID>
+<ownerDesignName>design_bazy</ownerDesignName>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="true"/>
+</engineerTo>
+<referedAttribute>E9EB8674-F278-7437-2E60-3C1D0F7D22F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F3CB496-DE58-0253-FB17-774F93F86D9E" name="Interwencje PK">
+<createdBy>walde</createdBy>
+<createdTime>2020-05-15 13:35:46 UTC</createdTime>
+<ownerDesignName>design_bazy</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8E77A60C-3778-24B4-F234-002D436DE30E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9301957F-5B26-42DF-768F-428D219B0CAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
